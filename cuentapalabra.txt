@@ -13,3 +13,5 @@ public class CContarPalabras
   {
    System.out.println("Introducir texto. " + "Pulse [Enter] despues de cada linea.");
    System.out.println("Para finalizar pulsar Ctrl+z.\n");
+while ((car = (char)System.in.read()) != eof)
+   {
