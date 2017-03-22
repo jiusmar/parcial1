@@ -26,3 +26,9 @@ while ((car = (char)System.in.read()) != eof)
 if (car == '\n')//Finaliza una linea
      nlineas++;
    }
+System.out.println();
+   System.out.println(ncaracteres + " " + npalabras + " " + nlineas);
+  }
+  catch(IOException ignorada){}
+ }   
+}
