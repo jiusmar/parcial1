@@ -21,3 +21,4 @@ while ((car = (char)System.in.read()) != eof)
 
    //Eliminar blancos, tabuladores y finales de linea entre palabras
     if (car == ' ' || car == '\n' || car == '\t')
+    palabra  = false;
