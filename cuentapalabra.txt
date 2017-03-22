@@ -1,0 +1,6 @@
+import java.io.*;
+
+public class CContarPalabras 
+{
+ public static void main(String[] args) //Contar caracteres, palabras y lineas en un texto
+ {
