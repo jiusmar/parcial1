@@ -15,3 +15,6 @@ public class CContarPalabras
    System.out.println("Para finalizar pulsar Ctrl+z.\n");
 while ((car = (char)System.in.read()) != eof)
    {
+    //[Enter] = CRLF = \r\n
+    if (car == '\r') continue; //Le sigue un \n
+    ncaracteres++; //Contador de caracteres
