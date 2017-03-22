@@ -4,3 +4,12 @@ public class CContarPalabras
 {
  public static void main(String[] args) //Contar caracteres, palabras y lineas en un texto
  {
+  final char eof = (char) - 1;
+  char car;
+  boolean palabra = false;
+  int ncaracteres = 0, npalabras = 0, nlineas = 0;
+  
+  try
+  {
+   System.out.println("Introducir texto. " + "Pulse [Enter] despues de cada linea.");
+   System.out.println("Para finalizar pulsar Ctrl+z.\n");
